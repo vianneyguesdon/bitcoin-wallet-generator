@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <h3>Create a Bitcoin Brain Wallet</h3>
+      <form method="post" action="wallet">
+        <input type="text" name="brainSrc"/>
+        <button type="submit">Generate !</button>
+      </form>
+    </div>
+    <div class="col-6">
+      <h3>Stats</h3>
+      <h6>Price: {{btcPrice}} $</h6>
+      <h6>Circulating Supply: {{btcTotal}} <i class="fab fa-bitcoin"></i></h6>
+      <h6>Daily Volume: {{btcVolume}} <i class="fab fa-bitcoin"></i></h6>
+      <h6>Bitcoin Mined per Day: {{btcMinedPerDay}} <i class="fab fa-bitcoin"></i></h6>
+    </div>
+    <div class="col-12">
+      <canvas id="myChart"></canvas>
+    </div>
+  </div>
+</div>
