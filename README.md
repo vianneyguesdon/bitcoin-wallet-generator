@@ -6,4 +6,4 @@ Application build with NodeJS.
 - Chart Live Price Index
 
 
-![GIF of the application Bitcoin Wallet Generator](https://vianneyguesdon.github.io/GIF/btc-dashboard.gif)
+![GIF of the application Bitcoin Wallet Generator](https://vianneyguesdon.github.io/GIF/btc-shorter.gif)
