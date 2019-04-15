@@ -1,0 +1,51 @@
+/* Coolors Exported Palette - coolors.co/2d728f-3b8ea5-f5ee9e-f49e4c-ab3428 */
+/* HSL */
+/* RGB */
+h1 {
+  color: #2d728f;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.stats {
+  margin-top: 40px;
+}
+
+.wallet {
+  margin-top: 12px;
+}
+
+.chart {
+  margin-top: 20px;
+}
+
+.input-align {
+  margin-left: 15px;
+}
+
+.btn-generate {
+  margin-left: 10px;
+}
+
+.wallet-generated {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btc-png {
+  height: 50px;
+  margin-top: -3px;
+  z-index: 1000;
+  animation: btc-move 9s ease-in-out 0s infinite alternate;
+}
+
+@keyframes btc-move {
+  0% {
+    transform: translateX(0%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(70%) rotate(200deg);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

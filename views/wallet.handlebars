@@ -1,12 +1,16 @@
 <div class="container">
-  <div class="row">
+  <div class="row mt-3">
+    <a href="/">&larr;</a>
+  </div>
+  <div class="row mt-4">
     <div class="col-6">
-      <h3>Create a Bitcoin Brain Wallet</h3>
-      <h5>Your Brain Wallet has been generated with the input: "{{brainSrc}}"</h5>
-      <h6>Address: {{address}}</h6>
-      <h6>Private Key: {{privateKey}}</h6>
-      <a target="_blank" href="https://www.blockchain.com/btc/address/{{address}}">Il y a t-il des fonds sur mon adresse ?</a>
-      <p>This passphrase, depending upon the type of generator you are using, is hashed with SHA-256 algorithm to generate a Bitcoin private key and then a Bitcoin public key.</p>
+      <h3>Your Brain Wallet has been generated with the input: "{{brainSrc}}"</h3>
+      <div class="col-6 wallet-generated">
+        <h6>Wallet Address: {{address}}</h6>
+        <h6>Private Key: {{privateKey}}</h6>
+      </div>
+      <a target="_blank" href="https://www.blockchain.com/btc/address/{{address}}">Let me check my address !</a>
+      <p>The passphrase you entered has been hashed with SHA-256 algorithm to generate a Bitcoin private key and a public key (wallet address). This wallet address is also displayed as a QR code to easily receive payments.</p>
     </div>
     <div class="col-6">
       <img src={{url}} alt="QR Code"/>

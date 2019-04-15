@@ -5,14 +5,14 @@ const exphbs = require ("express-handlebars");
 const bitcore = require ("bitcore-lib");
 var QRCode = require('qrcode');
 
-
 const port = process.env.port || 3000;
 const app = express(); 
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.static('public'));
 
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.urlencoded({
   extended: true
 }));

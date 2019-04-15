@@ -1,0 +1,62 @@
+/* Coolors Exported Palette - coolors.co/2d728f-3b8ea5-f5ee9e-f49e4c-ab3428 */
+
+/* HSL */
+$color1: hsla(198%, 52%, 37%, 1);
+$color2: hsla(193%, 47%, 44%, 1);
+$color3: hsla(55%, 81%, 79%, 1);
+$color4: hsla(29%, 88%, 63%, 1);
+$color5: hsla(5%, 62%, 41%, 1);
+
+/* RGB */
+$color1: rgba(45, 114, 143, 1);
+$color2: rgba(59, 142, 165, 1);
+$color3: rgba(245, 238, 158, 1);
+$color4: rgba(244, 158, 76, 1);
+$color5: rgba(171, 52, 40, 1);
+
+h1 {
+  color: $color1;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.stats {
+  margin-top: 40px;
+}
+
+.wallet {
+  margin-top: 12px;
+}
+
+.chart {
+  margin-top: 20px;
+}
+
+.input-align {
+  margin-left: 15px;
+}
+
+.btn-generate {
+  margin-left: 10px;
+}
+
+.wallet-generated {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btc-png {
+  height: 50px;
+  margin-top: -3px;
+  z-index: 1000;
+  animation:  btc-move 9s ease-in-out 0s infinite alternate
+}
+
+@keyframes btc-move {
+  0% {
+    transform: translateX(0%) rotate(0deg);
+  }
+  100% {
+      transform: translateX(70%) rotate(200deg);
+  }
+}
