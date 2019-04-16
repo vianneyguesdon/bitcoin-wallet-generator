@@ -2,7 +2,7 @@
 
 Application build with NodeJS.
 - Wallet generator with sha256 encryption
-- Twitter Bot "Love_Bitcoin_Bot"
+- Twitter Bot "Bitcoin_Love°Bot"
 - Chart Live Price Index
 
 
